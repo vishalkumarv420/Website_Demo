@@ -1,0 +1,285 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('/my_portofolio/MULTIMEDIA/body_background_img.jpg'); /* Fixed the space in URL */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: lightgreen;
+    padding: 10px 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#menu li {
+    margin: 0 20px;
+}
+
+#menu a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#menu a:hover {
+    color: white;
+    background-color: darkgreen;
+    border-radius: 10px;
+}
+
+/* Profile Section */
+#profile {
+    padding: 100px 50px 50px; /* Added padding to keep content below fixed menu */
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    border: 3px solid #fff;
+}
+
+/* Section Headers */
+h1, h2 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Section Container */
+section {
+    padding: 40px 20px;
+    margin-top: 80px; /* Added margin to prevent overlap with fixed menu */
+}
+
+/* About Section */
+#about {
+    background: lightpink;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+#skills {
+    background: lightcyan;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50px;
+}
+
+#skills h2 {
+    background: darkgoldenrod;
+    display: inline-block;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skills li {
+    margin: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Study Materials Section */
+#study_mtr {
+    background: yellowgreen;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50px;
+}
+
+#study_mtr h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flex_study_mtr {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.div_study_material {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td {
+    padding: 10px;
+    border: 1px solid darkgoldenrod;
+}
+
+.table a {
+    text-decoration: none;
+    color: #333;
+}
+
+.table a:hover {
+    color: darkgreen;
+}
+
+/* Projects Section */
+#projects {
+    background: lightyellow;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50px;
+}
+
+.project-card {
+    background: lightgoldenrodyellow;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    margin-bottom: 15px;
+}
+
+.project-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+    background: lightblue;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input, #contact textarea {
+    margin: 10px 0;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 15px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background: #0056b3;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* HTML Download Section */
+#html_download {
+    background: lightyellow;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.basics_download {
+    background: burlywood;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.basics_download:hover {
+    background: darkgoldenrod;
+}
+
+/* Utility Classes */
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: space-between;
+}
